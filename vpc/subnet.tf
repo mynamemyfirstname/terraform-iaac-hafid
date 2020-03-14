@@ -13,4 +13,4 @@ resource "aws_subnet" "dev2" {
 resource "aws_subnet" "dev3" { 
   vpc_id = "${aws_vpc.dev.id}" 
   cidr_block = "10.0.3.0/24" 
-}
+} 
