@@ -3,6 +3,6 @@ terraform {
     bucket = "terraform-ana"
     key    = "path/to/my/vpc"
     region = "us-east-1"
-    dynamodb_table = "terraform-class"
+    #dynamodb_table = "terraform-class"
 }
 }
