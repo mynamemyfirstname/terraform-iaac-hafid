@@ -1,4 +1,4 @@
 module "dev"{
- source = "./module"
+ source = "git@github.com/mynamemyfirstname"
 }
 
